@@ -1,0 +1,461 @@
+body{
+    background-color: black !important;
+    color: white;
+}
+
+header{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: -5px;
+    background-color: #1a1a1a;
+    overflow: hidden;
+    background-image: url(images/logo3.jpg);
+    background-size: 60px;
+    background-position-x: 40px;
+    background-position-y: top;
+    background-repeat: no-repeat;
+}
+
+nav{
+    width: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    float: left;
+    width: 20%;
+}
+
+nav ul li a{
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    color: white !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul li a:hover{
+    background-color: #2b2b2b !important;
+}
+
+.jumpers{
+    border: 1px solid gold;
+    margin-top: 10px;
+}
+
+#jumpers a{
+    text-decoration: none;
+    color: gold;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#jumpers a:hover{
+    color: cornsilk;
+}
+
+main{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.sec{
+    background-color: #2f0038;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.sec p{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    text-align: justify;
+    line-height: 150%;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+}
+
+h2{
+    text-align: center;
+    padding-top: 5px;
+}
+
+#solar1{
+    width: 100%;
+}
+
+.planet{
+    background-color: black;
+    width: 95%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.planetimg{
+    display: block;
+    margin: 0 auto;
+}
+
+.table{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.table{
+    border: 1px solid white;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.table td, th{
+    padding: 10px;
+    border: 1px solid white;
+}
+
+#vrh{
+    width: fit-content;
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+}
+
+#vrh a{
+    padding: 10px;
+    background-color: gold;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+#vrh a:hover{
+    background-color: cornsilk;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 15%;
+    right: 15%;
+    width: 70%;
+    background-color: #1a1a1a;
+}
+
+.podnozje{
+    margin: 0 auto;
+    width: 200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white !important;
+}
+
+.kontakt{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 50px;
+}
+
+.hkontakt{
+    text-decoration: underline;
+    margin-bottom: 50px;
+}
+
+.kontakt a{
+    color: white;
+}
+
+.form{
+    line-height: 200%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.iframe{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#mkontakt{
+    border: 1px solid gold;
+    margin-bottom: 50px;
+}
+
+#fix{
+    text-decoration: underline;
+    color: black;
+}
+
+.aboutimg{
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+#aboutimg1{
+    position: absolute;
+    width: 500px;
+    left: 100px;
+}
+
+#aboutimg2{
+    position: absolute;
+    width: 500px;
+    right: 100px;
+}
+
+#video{
+    margin-top: 400px;
+    margin-bottom: 50px;
+    border: 2px solid #2f0038;
+}
+
+aside{
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: gold;
+    background-color: #1a1a1a;
+    position: fixed;
+    left: 0;
+    width: 280px;
+    height: 100%;
+    border: 1px solid grey;
+    line-height: 300%;
+    z-index: 1;
+}
+
+aside ul{
+    list-style-type: none;
+}
+
+#novosti{
+    margin-bottom: 50px;
+}
+
+.blogpanel{
+    margin-bottom: 20px;
+}
+
+.blogpost{
+    width: fit-content;
+    margin: 0 auto;
+    padding-bottom: 5px;
+    border: 1px solid gold;
+    height: 300px;
+    max-width: 310px;
+}
+
+.blogpost img{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 5px;   
+}
+
+.blogpost p{
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.kategorije ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.kategorije ul li{
+    float: right;
+}
+
+.kategorije ul li a{
+    display: block;
+    margin: 0 auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 13px;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    color: white !important;
+}
+
+.kategorije ul li a:hover{
+    color: purple !important;
+}
+
+.upper{
+    border: 2px solid #2b2b2b;
+    margin-bottom: 20px;
+}
+
+.banner{
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+#hero-div{
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(rgba(65, 65, 65, 0.5), rgba(0, 0, 0, 0.5)), url(images/logo2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Quintessential', cursive;
+    font-size: 34px;
+}
+
+#akcija{
+    text-decoration: underline;
+}
+
+#akcija2{
+    font-weight: bold;
+    color: gold;
+}
+
+#mjesec{
+    width: 80%;
+}
+
+.shop{
+    display: flex;
+    flex-direction: column;
+}
+
+.red{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.shoppost{
+    max-width: 310px;
+    height: 320px;
+    border: 1px solid purple;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.shoppost img{
+    width: 50%;
+    display: block;
+    padding-bottom: 5px; 
+}
+
+.shoppost p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.shoppost span{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+}
+
+.shoppost span #stara{
+    text-decoration: line-through;
+}
+
+.shoppost a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #2b2b2b;
+    background-color: gold;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.shoppost a:hover{
+    transition: 0.5s;
+    background-color: #2f0038;
+    color: white;
+}
+
+@media(max-width: 1400px){
+
+    nav ul li{
+        float: left;
+        width: 100%;
+    }
+
+    nav ul li a{
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+    }
+}
+
+@media(max-width: 991px){
+
+    .kategorije ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    .kategorije ul li{
+        float: none;
+    }
+
+    .kategorije ul li a{
+        display: block;
+        margin: 0 auto;
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-top: 5px;
+        text-align: center;
+        font-size: 13px;
+        text-decoration: none !important;
+        text-transform: uppercase;
+        color: white !important;
+    }
+
+}
+
+@media(max-width: 1370px){
+
+    .red{
+        flex-wrap: wrap;
+    }
+
+    .shoppost{
+        margin-bottom: 10px;
+    }
+
+}
